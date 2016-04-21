@@ -1,0 +1,69 @@
+*{
+  
+  margin: 0px;
+  padding: 0px;}
+.title_size{font-size:22px}
+h1{
+  font: bold 20px timesnewroman;
+}
+body{
+  background:#2B2B2B;
+  text-align:center;
+}
+#big_wrapper{ 
+             margin: 20px auto;
+             text-align:left; 
+             }   
+
+#top_header{ background:#2B2B2B;
+             color:#DFE2DB;
+}
+
+#menu_header li{float:right;
+       padding: 15px;
+       list-style:none;
+}
+
+#main_section{text-align:center;
+             padding-top: 150px;
+             background:#DFE2DB;
+              
+}
+.image {float:right;
+       background:#DFE2DB;
+       width:310px;
+       height:275px
+}
+article {background:#DFE2DB;
+          padding-left: 1px;
+          padding-top:38px;
+          padding-bottom:180px;
+         text-align: left;}
+ 
+#portfolio{background:#DFE2DB;
+            text-align:left;
+           padding-top: 40px;          
+}
+
+.thumbnail{min-height:250px;              
+}
+
+
+#Contact{background:#ECECEA;
+         text-align: left;
+         padding:10px;
+}
+
+
+#footer{background:#2B2B2B;
+        padding: 3px;
+        border-top: 1px solid gray;
+}
+
+#footer li{display:inline-block;
+           padding:10px;
+}
+
+.welcome_class{font: bold 20px Timesnewroman;
+              padding-bottom:100px
+               }
