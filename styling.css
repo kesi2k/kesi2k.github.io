@@ -6,6 +6,10 @@
 h1{
   font: bold 20px timesnewroman;
 }
+
+p{
+  font-size:15px;
+}
 body{
   background:#2B2B2B;
   text-align:center;
@@ -43,6 +47,9 @@ article {background:#DFE2DB;
 #portfolio{background:#DFE2DB;
             text-align:left;
            padding-top: 40px;          
+}
+.links{
+font-size:18px;
 }
 
 .thumbnail{min-height:250px;              
