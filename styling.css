@@ -40,18 +40,33 @@ body{
 .image {float:right;
        background:#DFE2DB;
        width:200px;
-       height:200px
+       height:200px;
+       margin-right:60px;
 }
 article {background:#DFE2DB;
           padding-left: 1px;
           padding-top:38px;
           padding-bottom:180px;
          text-align: left;}
+         
+.description {
+    
+      margin:60px;
+
+}         
+
  
 #portfolio{background:#DFE2DB;
             text-align:left;
            padding-top: 40px;          
 }
+
+.portfolio{
+      
+    margin:90px;
+}
+
+
 .links{
 font-size:18px;
 }
