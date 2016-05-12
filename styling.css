@@ -8,10 +8,10 @@
   font-size:25px;
   
 }
+
 h1{
   font: bold 20px timesnewroman;
 }
-
 p{
   font-size:15px;
 }
@@ -30,52 +30,44 @@ body{
 
 #menu_header li{float:right;
        padding: 15px;
-       list-style:none;
+       list-style:none; 
 }
 
 #main_section{text-align:center;
              padding-top: 150px;
-             background: linear-gradient(to bottom, #2B2B2B, #DFE2DB);              
+             background: linear-gradient(to bottom, #2B2B2B, #DFE2DB);
+              
 }
-.image {float:right;
-       background:#DFE2DB;
-       width:200px;
-       height:200px;
-       margin-right:60px;
+.about_sec {
+ background:#DFE2DB;
+  
 }
-article {background:#DFE2DB;
-          padding-left: 1px;
-          padding-top:38px;
-          padding-bottom:180px;
+.image {
+      
+       width:225px;
+       height:225px
+}
+article {
+          padding-top:5px;
+          padding-bottom:180px;         
          text-align: left;}
-         
-.description {
-    
-      margin:60px;
-
-}         
-
+.description{
+  margin:30px;
+ 
+}
  
 #portfolio{background:#DFE2DB;
             text-align:left;
            padding-top: 40px;          
 }
 
-.portfolio{
-      
-    margin:90px;
-}
-
-
-.links{
-font-size:18px;
-}
-
 .thumbnail{min-height:250px;              
 }
 
 
-#Contact{background: linear-gradient(to bottom, #DFE2DB,  #2B2B2B);
+
+#Contact{
+      background: linear-gradient(to bottom, #DFE2DB,  #2B2B2B);
          text-align: left;
          padding:10px;
 }
@@ -83,7 +75,6 @@ font-size:18px;
 
 #footer{background:#2B2B2B;
         padding: 3px;
-        border-top: 1px solid gray;
 }
 
 #footer li{display:inline-block;
