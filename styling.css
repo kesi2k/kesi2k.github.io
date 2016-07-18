@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;}
 .title_size{font-size:22px}
+
 #name{
  text-shadow: rgba(80,100,250, .7) 4px 4px 4px; 
   font-size:25px;
@@ -35,12 +36,13 @@ body{
 
 #main_section{text-align:center;
              padding-top: 150px;
-             background: linear-gradient(to bottom, #2B2B2B, #DFE2DB);
+             //background: rgba(198, 203, 204, 0.5);
+             background: linear-gradient(to bottom, #2B2B2B, rgba(198, 203, 204, 0.5));
               
 }
 .about_sec {
   
- background:#DFE2DB;
+ background: rgba(198, 203, 204, 0.5);
   
 }
 
@@ -69,9 +71,10 @@ article {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
  
-#portfolio{background:#DFE2DB;
+#portfolio{background:rgba(198, 203, 204, 0.5);
             text-align:left;
-           padding-top: 40px;          
+           padding-top: 40px; 
+           padding-bottom: 50px;
 }
 
 .thumbnail{min-height:250px;              
@@ -80,9 +83,11 @@ article {
 
 
 #Contact{
-      background: linear-gradient(to bottom, #DFE2DB,  #2B2B2B);
+     // background: linear-gradient(to bottom, rgba(198, 203, 204, 0.5),  #2B2B2B);
+         background: #2B2B2B ;
          text-align: left;
          padding:10px;
+         padding-bottom:40px;
 }
 
 
