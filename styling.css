@@ -11,7 +11,7 @@
 }
 
 h1{
-  font: bold 20px timesnewroman;
+  font: bold 20px Arial;
 }
 p{
   font-size:15px;
@@ -36,8 +36,8 @@ body{
 
 #main_section{text-align:center;
              padding-top: 150px;
-             //background: rgba(198, 203, 204, 0.5);
-             background: linear-gradient(to bottom, #2B2B2B, rgba(198, 203, 204, 0.5));
+             background: rgba(198, 203, 204, 0.5);
+             //background: linear-gradient(to bottom, #2B2B2B, rgba(198, 203, 204, 0.5));
               
 }
 .about_sec {
@@ -67,9 +67,32 @@ article {
          text-align: left;}
          
 .description{
-  margin-top:52px;    
+ // margin-top:52px;    
 
 }
+
+#portfolio{
+     //   background:rgba(198, 203, 204, 0.5);
+       background:rgba(198, 203, 204, 0.5);
+            text-align:left;
+           padding-top: 40px; 
+           padding-bottom: 180px;
+}
+
+.portfolio_tile{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left:100px;
+    padding-bottom: 250px;
+    //background:white;
+    background:#F6F6F6;
+   box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.24);
+   
+    
+}
+
+
+
 
 
 /* Transition animation for hover and box shadow for card like look*/
@@ -100,12 +123,6 @@ article {
  
  
  
- 
-#portfolio{background:rgba(198, 203, 204, 0.5);
-            text-align:left;
-           padding-top: 40px; 
-           padding-bottom: 180px;
-}
 
 .thumbnail{min-height:250px;              
 }
@@ -129,6 +146,7 @@ article {
            padding:10px;
 }
 
-.welcome_class{font: bold 20px Timesnewroman;
+.welcome_class{
+              font: 20px arial;
               padding-bottom:100px
                }
