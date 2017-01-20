@@ -11,7 +11,7 @@
 }
 
 body {
-  background: #CDCDCD;
+  background: center#4a96ad;
 }
 
 .header {
@@ -35,6 +35,11 @@ body {
     background-color: #efefef;
     margin: 20px 10px 20px 0px;
     padding: 10px 0px 100px 20px;
+    box-shadow: 3px 2px 10px #524A4A;
+}
+
+.description:hover {
+  background-color: #FFE658;
 }
 
 .footer{
@@ -42,6 +47,11 @@ body {
   background-color: #efefef;
   margin: 20px 10px 20px 0px;
   padding: 10px 0px 50px 20px;
+  box-shadow: 3px 2px 10px #524A4A;
+}
+
+.footer:hover{
+  background-color: #FFE658;
 }
 
 .featured{
@@ -51,6 +61,11 @@ body {
 .portfolio-tile {
     background-color: #EFEFEF;
     margin: 20px 0px 20px 0px;
+    box-shadow: 3px 2px 10px #524A4A;
+}
+
+.portfolio-tile:hover{
+  background-color: #FFE658;
 }
 
 .individual {
