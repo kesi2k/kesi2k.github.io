@@ -22,9 +22,52 @@ body {
   -webkit-animation: colourAnim 40s infinite alternate;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#drawer {
+  height:70px;
+}
+
+.navbar-fixed-top {
+  opacity: 0.7;
+  height: 70px;
+  box-shadow: 3px 2px 10px #524A4A;
+  background-color: #20283c;
+}
+
+
+/* Attribute for list in a-tag*/
+.fixed_nav_links {
+  color:yellow;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+    color:red;
+
+
+}
+
 .header {
   border-bottom: 2px solid black;
-  
+
 }
 
 .profile_pic {
@@ -45,7 +88,7 @@ body {
     margin: 20px 10px 20px 0px;
     padding: 10px 0px 100px 20px;
     box-shadow: 3px 2px 10px #524A4A;
-    
+
 }
 
 .description:hover {

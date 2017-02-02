@@ -1,37 +1,83 @@
+/* Hide burger menu until desired screen width*/
+.burger__menu {
+  display: none;
+}
+
+#drawer_2{
+  display:none;
+}
+
 @media screen and (min-width:995px) {
-    .project-tile {
+.project-tile {
     width:33%;
     margin-left: auto;
     margin-right: auto;
 }
-    .individual-left {
+
+.individual-left {
   margin: 20px 10px 40px 60px;
   background: #7d97ad;
   box-shadow: 1px 1px 3px;
 }
-    .individual-right {
+
+.individual-right {
   margin: 20px 60px 40px 10px;
   background: #7d97ad;
   box-shadow: 1px 1px 3px;
 }
-    .resume{
+
+.resume{
         width:50%;
     }
 
 }
 
 @media screen and (max-width:994px) {
-    .project-tile {
-    width:70%;
-    margin-left: auto;
-    margin-right: auto;
+
+.project-tile {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 
 @media screen and (max-width:699px) {
-    .project-tile {
-    width:70%;
-    margin-left: auto;
-    margin-right: auto;
+
+.project-tile {
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#drawer {
+  /*
+  z-index: 10;
+   This trasform moves the drawer off canvas.
+  -webkit-transform: translate(-1000px, 0);
+  transform: translate(-1000px, 0);
+   Optionally, we animate the drawer.
+  transition: transform 0.3s ease;
+
 }
+
+.nav__item{
+  display:none;
+  */
+}
+/*
+.burger__menu {
+  display: inline-block;
+  float: right;
+}
+
+.burger__menu svg {
+  width: 40px;
+  fill: red;
+}
+*/
+}
+
+
+
+
+
