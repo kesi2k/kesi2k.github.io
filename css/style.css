@@ -60,14 +60,31 @@ ul {
   line-height: 24px;
   padding: 24px;
   text-transform: uppercase;
-    color:red;
-
-
+  color:red;
 }
 
 .header {
   border-bottom: 2px solid black;
 
+}
+
+/* On hover of burger mennu display drop down
+
+.burger__menu:hover > .sub-menu{
+  display:block;
+}
+*/
+
+.sub-menu{
+  min-width:100px;
+  background-color:black;
+  margin-top:-2px;
+  opacity: 0.7;
+}
+
+/* Text color for text in sub menu*/
+.sub-menu-text{
+  color:yellow;
 }
 
 .profile_pic {

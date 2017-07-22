@@ -7,8 +7,6 @@
   </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="js/jquery-3.1.1.js" defer></script>
-  <script src="js/bootstrap.min.js" defer></script>
   <!-- Twitter Bootstrap 3.3.5 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Twitter icons -->
@@ -16,6 +14,9 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/jquery-3.1.1.js" defer></script>
+  <script src="js/bootstrap.min.js" defer></script>
+  <script src="js/script.js" defer></script>
   </head>
   <body>
     <header id="Home">
@@ -25,12 +26,18 @@
             <li class="nav__item"><a class="fixed_nav_links" href="#About">About</a></li>
             <li class="nav__item"><a class="fixed_nav_links" href="#Portfolio">Portfolio</a></li>
             <li class="nav__item"><a class="fixed_nav_links" href="#Contact">Contact</a></li>
-            <li class="">
-            <a class="burger__menu">
+            <li class="burger__menu">
+            <a class="burger__menu dropdown-toggle" id = 'burger_menu' data-toggle="dropdown">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
               </svg>
             </a>
+                <ul class = "sub-menu dropdown-menu pull-right ">
+                  <li class=""><a class="" style="color:yellow" href="#Home">Home</a></li>
+                  <li class=""><a class="" style="color:yellow" href="#About">About</a></li>
+                  <li class=""><a class="" style="color:yellow" href="#Portfolio">Portfolio</a></li>
+                  <li class=""><a class="" style="color:yellow" href="#Contact">Contact</a></li>
+                </ul>
             </li>
           </ul>
       </nav>
@@ -45,7 +52,7 @@
       <div class="col-md-3">
       <img src="https://avatars2.githubusercontent.com/u/16753191?v=3&s=460" class = "img-responsive profile_pic" alt = "An image of the page designer">
       </div>
-      <div class="col-md-3"><img src="https://upload.wikimedia.org/wikipedia/en/8/8f/GeorgiaTechYellowJackets.png" class = "img-responsive logo" alt = "An image of the Georgia Tech mascot">
+      <div class="col-md-3"><img src="https://per.gatech.edu/wiki/lib/exe/fetch.php?cache=&w=600&h=590&media=wiki:buzz.png" class = "img-responsive logo" alt = "An image of the Georgia Tech mascot">
       </div>
       <div class="col-md-6 text-right text-uppercase">
         <h1 >Makesi Hamilton</h1>
